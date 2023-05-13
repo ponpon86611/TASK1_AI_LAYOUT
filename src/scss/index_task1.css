@@ -1,0 +1,72 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.category {
+  width: 1920px;
+  margin: 0 auto;
+}
+.category .card_list {
+  width: 1296px;
+  margin: 0 auto;
+}
+.category .card_list .card_item {
+  max-width: 416px;
+  margin-bottom: 22px;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.category .card_list .card_item a {
+  display: block;
+  overflow: hidden;
+}
+.category .card_list .card_item h3 {
+  margin-bottom: 12px;
+}
+.category .card_list .card_item img {
+  display: block;
+  transition: 0.5s all ease-out;
+}
+.category .card_list .card_item img:hover {
+  transform: scale(1.2);
+}
+.category .card_list .introduction, .category .card_list .category_info, .category .card_list .share_tag {
+  padding: 20px 32px;
+}
+.category .card_list .introduction, .category .card_list .category_info {
+  border-bottom: 1px solid #eee;
+}
+.category .card_list .introduction > .card_intro-content-font {
+  min-height: 42px;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_intro-font {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 900;
+}
+
+.card_intro-content-font {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.card_info_title-font {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}/*# sourceMappingURL=index_task1.css.map */
