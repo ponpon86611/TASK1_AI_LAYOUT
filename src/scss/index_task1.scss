@@ -10,8 +10,12 @@ img {
 	box-sizing: border-box;
 }
 
+body {
+    max-width: 1920px;
+}
+
 .category {
-    width: 1920px;
+    width: 1296px;
     margin: 0 auto;
 
     .card_list {
